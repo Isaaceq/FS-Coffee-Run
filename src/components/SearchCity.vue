@@ -40,7 +40,7 @@
             height="300px"
             frameborder="0"
             style="border:0"
-            v-bind:src="'https://www.google.com/maps/embed/v1/place?key=AIzaSyAGsBG8kGf7mvhuqLwYNPgf3rdxGFfbqnY&q='+venueName(venue.location.address+'+'+ venue.location.city)+'&zoom=14&center='+venue.location.lat+','+venue.location.lng+''"
+            v-bind:src="'https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q='+venueName(venue.location.address+'+'+ venue.location.city)+'&zoom=14&center='+venue.location.lat+','+venue.location.lng+''"
           ></iframe>
         </div>
       </div>
@@ -55,8 +55,8 @@ import axios from "axios";
 let userCity = "";
 
 // FOURSQUARE CLIENT-ID AND CLIENT-SECRET
-const clientID = "YTKSKP2I4AEXA4TOK4RKT34ZE1G0LSZ0VUDGI05VRK44EQ3K";
-const clientSecret = "FEYQR1KZHJE3I4BYTQOZKT4W2J1DKSCTAPU41D1DD2KMTLCQ";
+const clientID = "YOUR_CLIENT_ID";
+const clientSecret = "YOUR_CLIENT_SECRET";
 
 // SET CURRENT DATE AS VERSION PARAMETER
 const today = new Date();

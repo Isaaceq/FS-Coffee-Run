@@ -10,6 +10,11 @@
 ![](demo.gif)
 
 ---
+### API Keys
+<p>API keys for FourSquare and Google Maps are <strong>NOT</strong> provided. Follow the links below to obtain your own API Keys:</p>
+
+  * <a href="https://developer.foursquare.com/">FourSquare's API</a>
+  * <a href="https://developers.google.com/maps/documentation/embed/guide">Google Map's 
 
 ### Project setup
 ```
