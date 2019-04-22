@@ -1,29 +1,27 @@
-# coffee_run
+<h1 align="center">Coffee Run</h1>
 
-## Project setup
+<p align="center">
+  Coffee Run is a VueJS app that uses
+  <a href="https://developer.foursquare.com/">FourSquare's API</a> and 
+  <a href="https://developers.google.com/maps/documentation/embed/guide">Google Map's API</a> to show the nearest coffee shop from you desire location!
+</p>
+
+---
+![](demo.gif)
+
+---
+
+### Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
