@@ -50,13 +50,12 @@
 
 <script>
 // USED AXIOS-JS TO FETCH DATA FROM FOURSQUARE API
-import axios from "axios";
-
-let userCity = "";
+import axios from 'axios';
+let userCity = '';
 
 // FOURSQUARE CLIENT-ID AND CLIENT-SECRET
-const clientID = "YOUR_CLIENT_ID";
-const clientSecret = "YOUR_CLIENT_SECRET";
+let clientID = process.env.VUE_APP_YOUR_CLIENT_ID;
+let clientSecret = process.env.VUE_APP_YOUR_CLIENT_SECRET;
 
 // SET CURRENT DATE AS VERSION PARAMETER
 const today = new Date();
